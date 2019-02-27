@@ -1,0 +1,14 @@
+1. Two different types of power-ups that're active at the
+   same time will interfere with the Big Ball timer.
+	-- However, if one of the power-ups gets "destroyed", 
+	   the timer functions as normal.
+
+2. By hitting the Ball on the Player Height (the short ends),
+   the Player may perform a "backhand" smash.
+
+3. (Maybe) if the Ball hits a Brick from the side, it may
+   "freakout" and mow through several Bricks at once.
+
+4. If the Player picks up the Big Ball Power-Up when the Ball is all 
+   to the sides of the window, the Ball size will "clip" outside of the screen.
+	-- Which makes the Big Ball form get stuck.

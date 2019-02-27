@@ -1,0 +1,48 @@
+
+-- FÖREVER BREAKÖUT -- 
+
+-- BreakOut controls --
+Left/Right arrow keys = move left or right
+	-- Velocity based movement?
+Space bar = launch ball
+
+
+-- Features --
+-- Power Ups --
+	-- Blocks containing powerups are in a different color
+	-- Double ball
+		-- Creates another ball on the screen when original ball collides with the power up ball
+		-- If one ball falls outside the screen id doesn't remove player life
+		-- Lasts until it disappears
+	-- Giant ball
+		-- Creates a giant ball
+		-- Bigger hitbox
+	-- Laser
+		-- A "Board clear" item
+		-- Shoots straight up
+
+-- Gameplay --
+
+-- Ball --
+	-- Collision based physics?
+	-- Velocity and stuff
+
+-- Blocks --
+	-- Falls forever
+		-- New line of blocks spawns above the screen and moves downwards
+			-- The fall speed maybe should be slower than normal
+	-- Blocks themselves
+		-- Either
+			-- 16x16 blocks across the screen
+			-- or a more rectangular shape (maybe 64x16?)
+
+-- Visual -- 
+	-- [X] Normal blocks changes color the further down they move
+		-- [X] is tinted and changes color inside "invisible" fields
+
+-- Highscore --
+	-- Displayed at the bottom
+		-- Multiplier?
+
+-- Lives --
+	-- Displayed in lower left corner

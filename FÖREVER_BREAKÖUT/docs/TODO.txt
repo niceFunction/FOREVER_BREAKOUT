@@ -1,0 +1,62 @@
+-- IMPLEMENT --
+
+[MOSTLY-DONE]1. Implement a Menu system
+	-- Main Menu [DONE]
+	-- How to Play [DONE]
+	-- (Pressing 'Esc' in game) return to Main Menu [DONE]
+	-- Add more menu interactivity
+		-- Or implement alternate menu interaction
+
+[DONE] 2. Implement SFX
+	-- Ball hit Player SFX
+	-- Ball hit Walls SFX
+	-- Ball hit Bricks SFX
+	-- Player pickup Power-Up SFX
+
+
+3. Create a smarter Ball launch system
+	-- If the Player presses the left/right arrow key and space,
+	   it launches the ball in that direction.
+	-- If no inout is detected, launch straight
+
+[OPTIONAL] 4.Implement different input systems 
+	-- Gamepad
+	-- WASD / IJKL
+	-- Mouse
+	-- Scroll wheel on the Kensington Expert Ergonomic mouse.
+[MOSTLY-DONE] 5. Implement Game Over states
+	-- [DONE]When Bricks reaches a certain point, show a "Game Over" graphic or just go to Main Menu
+	-- [OPTIONAL] Implement a life system
+		-- That when a ball moves outside of the screen, decrement life
+
+-- FIX --
+
+1. Make it so that only the Big Ball has access to the 'powerUpTimer'
+   variable.
+
+2. Either make the Big Ball 'unclip' from the side of the wall if 'bigBallPowerUp' 
+   has been pickup
+   
+   or
+
+   Only make it possible so that the 'doubleBall' can spawn on the sides of the window
+   
+   or
+
+   Just let it be for now
+
+3. Improve the movement system
+	-- Give the Player more control over the "floatiness"
+
+[FIXED] 4. When Ball is "attached" to player, 'hitPlayerSound' repeats itself
+
+[FIXED] 5. After playing for a little bit and then returning to the Menu and then start to play again,
+   the game doesn't reset itself.
+
+6. Fix the 'How to Play' menu
+	-- Make the image of the controls a bit smaller to fit the 'Esc' (return to menu) image
+
+-- CONSIDER --
+
+1. If the Player has the Big Ball Power-Up active and picks up another 'bigBallPowerUp',
+   reset the 'powerUpTimer' to 30 seconds.
